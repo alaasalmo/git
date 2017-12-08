@@ -6,6 +6,7 @@ git -ls https://github.com/alaasalmo/test-repo.git
 
 git clone https://github.com/alaasalmo/spark-scala.git
 
+git clone https://github.com/alaasalmo/git.git
 
 
 git config --
@@ -50,7 +51,7 @@ git push
 -- Create branch
 git branch calc-divide
 git checkout calc-divide
-git push -u origin calc-divide
+git push -u origin master
 git branch calc-divide
 
 -- Example
