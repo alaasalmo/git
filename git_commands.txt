@@ -59,7 +59,34 @@ git checkout master
 git pull origin master 
 git branch --merged
 
+--Merge
+git pull origin master
+git branch --merged
+git merge git
+git push origin master
 
+--Delete branch from local
+git branch --merged
+git branch -d git
+
+
+--Delete branch from remote
+git push origin --delete git
+git branch -a
+
+
+--example:
+git branch substract
+git checkout substract
+git status
+git add -A
+git commit -m "My commit"
+git push origin substract
+
+git checkout master
+git pull origin master
+git merge substract
+git push origin master
 
 
 
