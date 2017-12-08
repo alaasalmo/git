@@ -1,0 +1,66 @@
+https://github.com/alaasalmo/test-repo.git
+
+git archive --remote=alaasalmo@https://github.com/alaasalmo/
+
+git -ls https://github.com/alaasalmo/test-repo.git
+
+git clone https://github.com/alaasalmo/spark-scala.git
+
+
+
+git config --
+
+git init 
+git config --global user.name "alaa yagoub"
+git config --global user.email "alaasalmo@gmail.com"
+git config --list
+
+Add to the staging
+
+git add -A
+git status
+git add .gitignore
+
+git reset filename
+git reset .gitignore
+get reset
+
+git commit -m "Inital Commit"
+git status
+git log
+
+--Get copy of remote repository
+git clone url
+
+--List the remote
+git remote -v
+git branch -a
+
+--Show chnages
+git diff
+-- Push the changes to the staging
+git add -A
+git commit -m "My commit"
+
+-- 
+git pull orginin master
+git push
+
+
+-- Create branch
+git branch calc-divide
+git checkout calc-divide
+git push -u origin calc-divide
+git branch calc-divide
+
+-- Example
+git checkout master
+git pull origin master 
+git branch --merged
+
+
+
+
+
+
+
