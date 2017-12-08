@@ -89,6 +89,7 @@ git merge substract
 git push origin master
 
 
-
+--disable certificate
+git config --global http.sslverify false
 
 
