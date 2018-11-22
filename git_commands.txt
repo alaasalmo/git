@@ -93,4 +93,5 @@ git push origin master
 git config --global http.sslverify false
 
 --Check
-
+--Remove submodule
+git rm -f --cached foldername
