@@ -95,3 +95,8 @@ git config --global http.sslverify false
 --Check
 --Remove submodule
 git rm -f --cached foldername
+
+--Check log
+git log
+git log -p -2 --Check the 2 changes (differences)
+
