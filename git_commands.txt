@@ -100,3 +100,25 @@ git rm -f --cached foldername
 git log
 git log -p -2 --Check the 2 changes (differences)
 
+
+--Differences 
+git diff --base <filename>
+git diff <sourcebranch>..<targetbranch>
+git diff --name-status remotes/origin/master..remotes/origin/development-branch
+
+--Reset commit 
+git reset file_name
+
+
+--Merge from master to branch
+1- git checkout branch
+2- git merge master
+3- push
+
+--brancges
+git branch -b "new branch"
+git branch (display my current branch)
+git branch -a (display all branches)
+
+
+
